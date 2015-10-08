@@ -26,13 +26,14 @@ if (file_exists($autoload[0])) {
 } elseif (file_exists($autoload[1])) {
     include $autoload[1];
 } else {
-    throw new \Exception('Autoload not found');
+    echo 'ERROR, autoload not found' . PHP_EOL;
+    exit(1);
 }
-echo "\n";
-echo "Hephaestus v" . \Hephaestus\Hephaestus::VERSION . "\n";
-echo "argv:\n";
+
+echo 'Hephaestus v' . \Hephaestus\Hephaestus::VERSION . PHP_EOL;
+echo 'argv:' . PHP_EOL;
 print_r($argv);
 
 $cwd = getcwd();
-echo "cdw: $cwd\n";
-echo "\n";
+echo "cdw: $cwd" . PHP_EOL;
+echo PHP_EOL;
