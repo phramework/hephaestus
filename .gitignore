@@ -2,3 +2,4 @@
 composer.lock
 /build/
 /nbproject/
+/bin/*.symbolic.php

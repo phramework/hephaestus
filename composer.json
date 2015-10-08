@@ -34,7 +34,9 @@
       "phpunit"
     ],
     "lint": "phpcs -p -s --standard=PSR2 ./src",
-    "doc": "apigen generate -s ./src -d ./doc --template-theme bootstrap --todo --tree --deprecated --no-source-code --title \"Hephaestus\""
+    "doc": "apigen generate -s ./src -d ./doc --template-theme bootstrap --todo --tree --deprecated --no-source-code --title \"Hephaestus\"",
+    "run": "php ./bin/hephaestus"
+
   },
   "bin": [
     "bin/hephaestus"

@@ -1,4 +1,5 @@
 #!/usr/bin/env php
 <?php
-
-echo "hello world";
+echo "Hephaestus";
+print_r($argv);
+echo "\n";
