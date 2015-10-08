@@ -9,5 +9,5 @@ Terminal toolbox for Phramework
 
 ## Installation
 ```lang=bash
-composer install -g Phramework/Hephaestus 
+composer global require --dev phramework/hephaestus
 ```

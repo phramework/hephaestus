@@ -1,0 +1,12 @@
+before_script:
+  - composer install
+
+job1:
+  stage: test
+  script:
+    - composer lint
+
+job2:
+  stage: test
+  script:
+    - composer test
