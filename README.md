@@ -14,10 +14,6 @@ Edit your `~/.composer/composer.json` file to include Hephaestus repository
 
 ```json
 {
-  "repositories": [{
-    "type": "vcs",
-    "url": "git@gitlab.mathlogic.eu:Phramework/Hephaestus.git"
-  }],
   "require-dev": {
     "phramework/hephaestus": "dev-master"
   }
@@ -46,7 +42,7 @@ ln -s /var/www/Hephaestus/bin/hephaestus /var/www/Hephaestus/bin/hephaestus.symb
 ```
 
 # License
-Copyright 2015 Xenofon Spafaridis
+Copyright 2015-2016 Xenofon Spafaridis
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

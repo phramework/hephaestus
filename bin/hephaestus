@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 /**
- * Copyright 2015 Xenofon Spafaridis
+ * Copyright 2015-2016 Xenofon Spafaridis
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,8 +30,11 @@ if (file_exists($autoload[0])) {
     exit(1);
 }
 
-echo 'Hephaestus v' . \Hephaestus\Hephaestus::VERSION . PHP_EOL;
-echo 'argv:' . PHP_EOL;
+return (new \Hephaestus\Bin($argv))->invoke();
+
+
+//
+/*echo 'argv:' . PHP_EOL;
 print_r($argv);
 
 $cwd = getcwd();
@@ -50,3 +53,4 @@ foreach ( $lines as $line ) {
 }
 
 var_dump($branch);
+*/

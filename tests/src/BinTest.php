@@ -14,14 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-namespace Hephaestus;
+namespace src;
 
-/**
- * @license https://www.apache.org/licenses/LICENSE-2.0 Apache-2.0
- * @author Xenofon Spafaridis <nohponex@gmail.com>
- * @version 0.0.0
- */
-class Hephaestus
+
+class Bin
 {
-    const VERSION = '0.0.0';
+
 }

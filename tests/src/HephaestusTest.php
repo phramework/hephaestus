@@ -16,12 +16,8 @@
  */
 namespace Hephaestus;
 
-/**
- * @license https://www.apache.org/licenses/LICENSE-2.0 Apache-2.0
- * @author Xenofon Spafaridis <nohponex@gmail.com>
- * @version 0.0.0
- */
-class Hephaestus
+
+class HephaestusTest extends \PHPUnit_Framework_TestCase
 {
-    const VERSION = '0.0.0';
+
 }
